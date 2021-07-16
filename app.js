@@ -9,7 +9,7 @@ client.on('ready', () => {
     console.log('Bot is ready');
   });
 
-  
+console.log("Token :process.env.BOT_TOKEN")
 client.login(process.env.BOT_TOKEN)
 
 
